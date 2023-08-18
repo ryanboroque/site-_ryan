@@ -1,24 +1,29 @@
-*{
-  margin: 0;
-  padding:0;
+#jogo {
+  position: relative;
+  width: 700px;
+  height: 400px;
+  background-color: black;
 }
 
-.cabecalho {
-    background: color #000000;
+#bola {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
 
-    color :rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 24px 0;
-    font-size: 24px;
-  }
+.raquete {
+  position: absolute;
+  width: 10px;
+  height: 100px;
+  background-color: white;
+}
 
-  .cabecalho-imagem{
-width: 20%
-  }
+#raquete-jogador {
+  right: 10px;
+}
 
-.cabecalho-lista-item{
-  display: inline-block ;
-  margin: 0 16px;
+#raquete-computador {
+  left: 10px;
 }
